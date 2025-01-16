@@ -1,0 +1,129 @@
+.nav-link:hover{
+    background-color: aqua;
+}
+.border-line{
+height: 45px;
+border: 1px solid white;
+}
+.home-button{
+    color: white;
+}
+.home-button:hover{
+    color: rgb(244, 120, 120);
+}
+.banner-img{
+    margin-top: 100px;
+}
+.cart-bottom-left-bottom{
+    background: linear-gradient(to right, #dfb2f6, #f7a9d8);
+    padding: 16px 18px;
+    border: none;
+    font-weight: bold;
+    color: blue;
+    border-radius: 55px;
+}
+.cart-bottom-left-bottom:hover{
+   background: linear-gradient(to right, #a07beb, #f4aadb);
+   color: white;
+}
+.cart-bottom-right-bottom{
+    background: linear-gradient(to right, #f1ed95, #93d8e8);
+    padding: 16px 18px;
+    border: none;
+    font-weight: bold;
+    color: blue;
+    border-radius: 55px;
+}
+.cart-bottom-right-bottom:hover{
+   background: linear-gradient(to right, #a07beb, #f4aadb);
+   color: white;
+}
+.border-line{
+    height: 45px;
+    border: 1px solid white;
+}
+.border-line:hover{
+    transform: 0.3s;
+    border: 2px solid blueviolet;
+}
+
+.cart-zoom {
+    transition: 0.3s ease;
+    border-radius: 0px 0px 24px 24px;
+}
+.cart-zoom:hover{
+  transform:  scale(1.1); 
+  border: 1px solid rgb(115, 230, 115);
+}
+
+.second-banner:hover{
+  border-right: 2px solid;  
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+}
+header{
+    z-index: 1;
+}
+.z-index{
+    z-index: 0;
+}
+.gradient-text{
+    font-size: 48px; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: make the text bold */
+    background: linear-gradient(to right, #C32060, #4150D8); /* Add colors from red to blue */
+    -webkit-background-clip: text; /* Clips background to text */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent */
+    display: inline-block; /* Ensure the gradient applies properly */
+}
+.btn-2{
+    color: yellow;
+}
+.btn-2:hover{
+    color: white;
+    background-color: rgb(168, 9, 168);
+}
+.single-course-image{
+  height: 360px; 
+  width: 600px; 
+}
+
+.single-course-border:hover{
+    border-right: 2px solid rgb(66, 3, 66);
+    border-bottom: 2px solid rgb(66, 3, 66);
+    border-top: 2px solid rgb(66, 3, 66);
+    border-radius: 0px 0px 10px 10px;
+}
+.border-left{
+    border-right: 2px solid black;
+    height: 300px;
+    margin-top: 20px;
+}
+.btn-area{
+ margin-top: 150px;   
+}
+.left-area{
+    height: 450px;
+}
+.right-area{
+    height: 450px;
+}
+.mapArea{
+    height: 450px;
+    width: 830px;
+}
+@media screen and (max-width:576px){
+ .banner-img{
+width: 100%;
+margin-top: 12%;
+ }   
+ .img-2{
+    width: 100%;
+    height: 100%;
+    }
+    .left-area, .border-left{
+        height: 100%;
+    }
+    .btn-area{
+        margin-top: 10%;
+    }
+}
